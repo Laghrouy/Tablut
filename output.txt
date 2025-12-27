@@ -1,0 +1,605 @@
+/Users/messipsaboussaid/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62149:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/messipsaboussaid/PDirectory/java/Tablut/out/production/Tablut Tablut
+Initial board:
+   0 1 2 3 4 5 6 7 8
+0 | . . . A A A . . . |
+1 | . . . . A . . . . |
+2 | . . . . D . . . . |
+3 | A . . . D . . . A |
+4 | A A D D R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 1 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 56 possibilités...
+Coup choisi : (2,4) → (2,0) (score: -1280, temps: 7872ms)
+   0 1 2 3 4 5 6 7 8
+0 | . . . A A A . . . |
+1 | . . . . A . . . . |
+2 | D . . . . . . . . |
+3 | A . . . D . . . A |
+4 | A A D D R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 2 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 78 possibilités...
+Coup choisi : (1,4) → (2,4) (score: 32080, temps: 3391ms)
+   0 1 2 3 4 5 6 7 8
+0 | . . . A A A . . . |
+1 | . . . . . . . . . |
+2 | D . . . A . . . . |
+3 | A . . . . . . . A |
+4 | A A D D R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 3 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 48 possibilités...
+Coup choisi : (2,0) → (2,1) (score: -1380, temps: 2779ms)
+   0 1 2 3 4 5 6 7 8
+0 | . . . A A A . . . |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . . . . . . A |
+4 | A A D D R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 4 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 86 possibilités...
+Coup choisi : (0,3) → (0,0) (score: 32080, temps: 5074ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A A . . . |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . . . . . . A |
+4 | A A D D R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 5 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 50 possibilités...
+Coup choisi : (4,2) → (3,2) (score: -1390, temps: 5030ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A A . . . |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . D . . . . . A |
+4 | A A . D R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 6 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 80 possibilités...
+Coup choisi : (4,1) → (4,2) (score: 32090, temps: 6874ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A A . . . |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . D . . . . . A |
+4 | A . A . R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 7 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 50 possibilités...
+Coup choisi : (3,2) → (3,3) (score: -1490, temps: 8175ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A A . . . |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 8 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 86 possibilités...
+Coup choisi : (0,5) → (0,8) (score: 32100, temps: 4031ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . . A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 9 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 55 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1590, temps: 10536ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . . A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D A A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 10 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 83 possibilités...
+Coup choisi : (4,7) → (0,7) (score: 32200, temps: 3175ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 11 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 51 possibilités...
+Coup choisi : (2,2) → (2,1) (score: -1690, temps: 8771ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | A . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | . . . A A A . . . |
+
+Turn 12 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 86 possibilités...
+Coup choisi : (5,0) → (8,0) (score: 32300, temps: 4582ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | A . . A A A . . . |
+
+Turn 13 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 57 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1790, temps: 11964ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . A |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | A . . A A A . . . |
+
+Turn 14 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 83 possibilités...
+Coup choisi : (5,8) → (8,8) (score: 32400, temps: 3469ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | A . . A A A . . A |
+
+Turn 15 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 53 possibilités...
+Coup choisi : (2,2) → (2,1) (score: -1890, temps: 9229ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | . . . . A . . . . |
+8 | A . . A A A . . A |
+
+Turn 16 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 88 possibilités...
+Coup choisi : (7,4) → (7,0) (score: 32500, temps: 4764ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 17 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 59 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1990, temps: 12243ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . . . A . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 18 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 83 possibilités...
+Coup choisi : (0,4) → (0,1) (score: 32590, temps: 3578ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 19 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 54 possibilités...
+Coup choisi : (2,2) → (2,1) (score: -1990, temps: 11423ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 20 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 88 possibilités...
+Coup choisi : (0,1) → (0,2) (score: 32590, temps: 4844ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 21 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 59 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1990, temps: 12986ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 22 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 84 possibilités...
+Coup choisi : (0,2) → (0,1) (score: 32590, temps: 3418ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 23 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 54 possibilités...
+Coup choisi : (2,2) → (2,1) (score: -1990, temps: 11417ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 24 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 88 possibilités...
+Coup choisi : (0,1) → (0,2) (score: 32590, temps: 4909ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 25 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 59 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1990, temps: 12987ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 26 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 84 possibilités...
+Coup choisi : (0,2) → (0,1) (score: 32590, temps: 3415ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 27 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 54 possibilités...
+Coup choisi : (2,2) → (2,1) (score: -1990, temps: 11463ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 28 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 88 possibilités...
+Coup choisi : (0,1) → (0,2) (score: 32590, temps: 4846ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 29 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 59 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1990, temps: 13013ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 30 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 84 possibilités...
+Coup choisi : (0,2) → (0,1) (score: 32590, temps: 3435ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 31 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 54 possibilités...
+Coup choisi : (2,2) → (2,1) (score: -1990, temps: 11424ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 32 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 88 possibilités...
+Coup choisi : (0,1) → (0,2) (score: 32590, temps: 4849ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 33 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 59 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1990, temps: 12976ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 34 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 84 possibilités...
+Coup choisi : (0,2) → (0,1) (score: 32590, temps: 3413ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 35 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 54 possibilités...
+Coup choisi : (2,2) → (2,1) (score: -1990, temps: 11415ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 36 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 88 possibilités...
+Coup choisi : (0,1) → (0,2) (score: 32590, temps: 4850ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 37 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 59 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1990, temps: 12998ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 38 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 84 possibilités...
+Coup choisi : (0,2) → (0,1) (score: 32590, temps: 3415ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 39 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 54 possibilités...
+Coup choisi : (2,2) → (2,1) (score: -1990, temps: 11446ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 40 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 88 possibilités...
+Coup choisi : (0,1) → (0,2) (score: 32590, temps: 4844ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . D . . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 41 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 59 possibilités...
+Coup choisi : (2,1) → (2,2) (score: -1990, temps: 13061ms)
+   0 1 2 3 4 5 6 7 8
+0 | A . A . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 42 - Current player: MERCENAIRE
+IA MERCENAIRE calcule le meilleur coup parmi 84 possibilités...
+Coup choisi : (0,2) → (0,1) (score: 32590, temps: 3468ms)
+   0 1 2 3 4 5 6 7 8
+0 | A A . . . . . A A |
+1 | . . . . . . . . . |
+2 | . . D . A . . . . |
+3 | A . . D . . . . A |
+4 | A . A . R D D . A |
+5 | . . . . D . . . . |
+6 | . . . . D . . . . |
+7 | A . . . . . . . . |
+8 | A . . A A A . . A |
+
+Turn 43 - Current player: GARDE
+IA GARDE calcule le meilleur coup parmi 54 possibilités...
+
+Process finished with exit code 130 (interrupted by signal 2:SIGINT)
